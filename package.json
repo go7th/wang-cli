@@ -1,0 +1,24 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "show.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack –mode deveplopment",
+    "build": "webpack –mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "webpack/webpack-cli"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "core-util-is": "^1.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack-encoding-plugin": "^0.2.1"
+  }
+}
