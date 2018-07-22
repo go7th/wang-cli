@@ -4,6 +4,7 @@ module.exports={
     path:__dirname+'/dist/js',
     filename:'other.js'
   },
+  mode:'development',
   module:{
     rules:[
       {
@@ -12,4 +13,8 @@ module.exports={
       }
     ]
   },
+  devServer:{
+    port:8081,
+    contentBase:'src'
+  }
 }
