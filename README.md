@@ -1,6 +1,6 @@
-#webpack 起步
+# webpack 起步
 
-##1.安装webpack
+## 1.安装webpack
 
 >`npm install webpack -g`
 
@@ -8,15 +8,15 @@
 
 >`npm install webpack-command -g`
 
-##2.文件打包
+## 2.文件打包
 
-#####在package.json文件中的scripts下面追加2行代码，注意“，”逗号
+##### 在package.json文件中的scripts下面追加2行代码，注意“，”逗号
 
 >`"dev": "webpack –mode deveplopment"`,
     
 >`"build": "webpack –mode production"`
 
-#####执行打包命令
+##### 执行打包命令
 
 >`webpack test.js -o other.js`
 
