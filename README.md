@@ -10,7 +10,7 @@
 
 ## 1.安装webpack
 
->'npm init'
+>`npm init`
 
 >`npm install webpack webpack-cli webpack-command webpack-dev-server -D`
 
