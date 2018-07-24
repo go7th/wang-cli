@@ -12,9 +12,8 @@
 
 >`npm init`
 
->`npm install webpack webpack-cli webpack-command webpack-dev-server -D`
+>`npm install webpack webpack-cli webpack-command webpack-dev-server css-loader style-loader extract-loader file-loader html-loader -D`
 
->`npm install css-loader style-loader -D `
 
 
 ## 2.文件打包
